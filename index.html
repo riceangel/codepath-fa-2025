@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [✅] Project 2 (REQUIRED FEATURE) 
+        - [✅] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>The Intermission Orchestra December Concert</title>
+        <link rel="icon" href="img/tio_logo.png"> 
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+    
+        <!-- navbar
+
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div id="home" class="navbar">
+            <ul>
+            <li><a href="#home">Home</a></li>    
+            <li><a href="#about">About the Event</a></li>
+            <li><a href="#schedule">Event Schedule</a></li>
+            <li><a href="#links">Links</a></li>
+            </ul>
+        </div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [✅] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+
+        TO DO: Check if need .header (from styles.css)
+        -->
+        <div class="header-container">
+            <div class="header-item">
+                <img id="header-img" src="img/omori.png" width="100%"/>
+            </div>
+            <div class="header-item">
+                <h1 id="intermission-orch">The Intermission Orchestra</h1>
+                <h1 id="dec-concert">December Concert</h1>
+
+                <h2>Anime, Video Game, and Film Music</h2>
+                <div class="header-button-container">
+                    <button type="button">Reserve a FREE ticket</button>
+                    <button type="button">See past performances</button>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [✅] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="about">About the Event</h2>
+        <!-- TO DO: MAKE ADAPTIVE -->
+        <div class="about-container">
+            <iframe src="https://www.youtube.com/embed/zgoKyOAC-sc?si=McNJfwpRspDzW5Fc" ></iframe>
+            <img alt="Orchestra Photo from Fall 2024 Concert" 
+                    src="./img/DSC_4924.JPG"/>
+        </div>
+        
+        <p>The Intermission Orchestra (also known as TIO) is BACK with another concert on December 8th, 2025.
+            Bring your friends and family to First Congregational Church at Berkeley for an exciting and FREE 
+            night of music from your favorite anime, video games, and movies. Whether you're a 
+            student that needs a break from locking in for finals, or you're a pop culture 
+            fan in the greater Bay Area, THIS is the concert for you! 
+
+        </p>
+
+        <h3>What to Expect</h3>
+        <h4>A night full of fun music from your favorite anime, video games, and films for FREE!</h4>
+        <ul>
+            <li> <b>Live Music:</b> <i>Arranged by members within the orchestra! Our members have worked hard throughout the 
+                semester in rehearsals to bring you a magical performance!
+            </i></li>
+            <li> <b>Art Gallery:</b> <i>Admire the beautiful visual art our art staff members have created throughout the semester!</i></li>
+            <li> <b>Sticker and Keychain Booth:</b> <i>Stop by and purchase hand-drawn stickers and keychains made 
+                by our members! Sales help support our mission to keep all of our concerts entirely free to the public!</i></li>
+        </ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [✅] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="schedule">Event Schedule</h2>
+        <div class="event-schedule-container">
+            <div class="event-schedule">
+                <div class="ticket-container">
+                    <img alt="Man holding ticket"  
+                        src="img/ticket_get_man.png" />
+                    <img alt="Woman holding ticket"  
+                        src="img/ticket_get_woman.png"/>
+                </div>
+
+                <h3>7:30PM - Doors Open!</h3>
+                <p> Enter through the main entrance of First Congregational Church at Berkeley. </p>
+                <p>
+                    <u>Please avoid parking in the church parking lot as staff will lock the space before the end of the concert</u>. 
+                    Alternate parking options can be found both
+                    <a class="link" href="https://pt.berkeley.edu/parking/visitor-parking/lots-pricing">on-campus</a> and 
+                    <a class="link" href="https://pt.berkeley.edu/parking/visitor-parking/campus-parking">off-campus</a>.
+                </p>
+                <p> <u>You will be expected to show your (FREE) entry ticket on your device to an usher before taking your seat!</u> 
+                    Ushers will guide Priority Admission ticket attendees to their seats in the front. Please note there is additional seating
+                    available upstairs on the second floor.    
+                </p>
+            </div>
+            
+            <div class="event-schedule">
+                <img src = "img/music_orchestra.png"
+                    alt="Full orchestra clipart"
+                    height = 150/>
+                <h3>8:00PM - Performance Starts</h3>
+                <p> Sit back and relax as our orchestra serenades you! There will be a 15 minute intermission 
+                    around the halfway point of the concert to stretch your legs, use the restroom, purchase merch 
+                    from our artist table in the lobby, and chat with orchestra members! 
+                </p>
+            </div> 
+            
+            <div class="event-schedule">
+                <img src = "img/gekijou_end_theend.png"
+                    alt="Curtain with 'the end'"
+                    height = 150/>
+                <h3>10:00PM - Performance Ends</h3>
+                <p> Please give orchestra members some time to pack up their things and help put away music stands and 
+                    chairs before greeting them. 
+                </p>
+            </div>  
+        </div>
+
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="links">Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://linktr.ee/tioatcal">
+            <article>
+                <h3>Our Linktree</h3>
+                <p>Your one stop shop for links to our social media, as well as sites to 
+                    RSVP to our performances when they go live.</p>
+            </article>
+        </a>
+        <a class="block" href="https://www.instagram.com/intermissionberkeley/?hl=en">
+            <article>
+                <h3>Our Instagram</h3>
+                <p>Follow us on Instagram to keep up to date with all things TIO!</p>
+            </article>
+        </a>
+        <a class="block" href="https://www.youtube.com/@tioatberkeley">
+            <article>
+                <h3>Our YouTube</h3>
+                <p>Can't wait to hear us live? Listen to some past performances!</p>
+            </article>
+        </a>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <div class="footer">
+            <p>&copy; 2025 | Ryssa Malibiran | All Rights Reserved</p>
+        </div>
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+
+    </body>
+</html>
